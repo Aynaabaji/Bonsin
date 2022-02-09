@@ -1,0 +1,708 @@
+
+/* @media screen and (max-width:400px){
+    .foot-grid{
+        grid-template-column:1fr;
+    }
+} */
+
+
+/* #####################################################
+
+        320     to      768
+
+##################################################### */
+
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width:767px){
+    /* ================= header-section starts ============= */
+    header{
+        padding: 2rem;
+    }
+    .item{
+        border: none;
+        text-align:center;
+        margin-bottom: 2rem;
+    }
+
+    .item h2{
+        font-size:1.5rem;
+        margin: 0;
+        padding-top: 2rem;
+    }
+
+    .item p{
+        margin: 0;
+        font-size:1.2rem;
+    }
+
+    .iconate{
+        position: inherit;
+    }
+
+    .icon-item{
+        text-align:center;
+        display:flex;
+        justify-content: space-around;
+        padding: 1.5rem 0;
+    }
+
+    .header-right-icons{
+        margin: 0;
+    }
+
+
+
+    /* =============== header section ends ========= */
+    /* =============== navbar section starts ========= */
+    
+    /* =============== navbar section ends ========= */
+
+    /* =============== banner section starts ========= */
+
+    #banner{
+        background-position: center;
+        background-size: cover;
+        padding: 5rem 0 0 0;
+    }
+
+    .banner-item-left{
+        padding: 2rem;
+    }
+
+    .banner-item-left a{
+        margin-right: 2rem;
+        padding: 0.5rem 0.8rem;
+    }
+
+    .anchor-banner-div{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0.5em;
+    }
+    /* =============== banner section ends ========= */
+    /* =============== solutions section starts ======== */
+    #choose{
+        margin-bottom: 1.5rem;
+    }
+    
+    .solutions-parent{
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        row-gap: 4rem;
+    }
+
+    .solutions-details-header-paragraph{
+        text-align: justify;
+    }
+
+    .para-solu{
+        padding: 4rem 0 2rem 0;
+    }
+
+    .solutions-details{
+        padding: 0 2rem;
+    }
+
+    .solutions-details-header-button{
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    .solutions-details-header h1{
+        font-size:3rem;
+        /* font-family:"Poppins",sans-serif; */
+        font-weight: 600;
+    }
+    /* =============== solutions section ends ======== */
+    /* =============== choose section start ======== */
+    .img-choose{
+        position:inherit;
+        width:100%;
+    }
+
+    .img-choose img{
+        width:100%;
+        padding: 0;
+    }
+    .choose-lft{
+        width:100%;
+        padding: 2rem;
+    }
+
+    .choose-rgt{
+        width:0%;
+    }
+
+    .point-common-para{
+        text-align: justify;
+    }
+    /* =============== choose section ends ======== */
+
+    /* ============== offer section starts ========== */
+    .offer-heading-grid{
+        grid-template-columns:1fr;
+    }
+
+    .offer-heading-grid-left{
+        border-right:0;
+        padding-bottom: 1rem;
+        margin-bottom: 1.5rem;
+        border-bottom:0.4rem solid var(--primary);
+        text-align:center;
+    }
+
+    .offer-heading-grid-right{
+        text-align:justify;
+    }
+    .offer-heading-grid-right p{
+        padding: 0 2rem;
+    }
+
+    .offer-grid-boxes{
+        grid-template-columns:1fr;
+        gap: 1.5rem;
+    }
+
+    .offer-box-grid{
+        padding: 2rem 0;
+    }
+
+    .offer-grid-icon{
+        margin-bottom: 1.5rem;
+    }
+
+    .offer-grid-details h3{
+        font-size:2.5rem;
+    }
+
+    .offer-grid-details p{
+        padding: 1.5rem 2rem 0 2rem;
+    }
+    /* ============== offer section ends ========== */
+    /* ============== team section starts ========== */
+    .team-head p{
+        padding: 2rem 2rem;
+    }
+    .card-section-team{
+        grid-template-columns:1fr;
+        row-gap: 2rem;
+    }
+    /* ============== team section ends ========== */
+    /* ============== counter section starts ========== */
+    .counter-grid{
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        row-gap: 1rem;
+    }
+    /* ============== counter section ends ========== */
+    /* ============== plan1 section starts ========== */
+    .plan-grid-details{
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
+
+    .plan-common-heading header{
+        padding-bottom: 0;
+    }
+
+    .plan-box-title h1{
+        font-size:2.5rem;
+    }
+
+    .plan-box-title span{
+        font-size:1.8rem;
+    }
+
+    .plist-desc p{
+        font-size:1.4rem;
+    }
+
+    .plist{
+        padding: 0.2rem 2rem;
+    }
+
+    .plan-common-heading article{
+        padding: 3rem 2rem;
+    }
+    /* ============== plan1 section ends ========== */
+    /* ============== plan2 section starts ========== */
+    #plan2{
+        margin-bottom: 1rem;
+        padding-bottom: 3rem;
+    }
+    /* ============== plan2 section ends ========== */
+    /* ============== vision section starts ========== */
+    .vision{
+        grid-template-columns: 1fr;
+    }
+
+    .vision-img{
+        margin: 0 auto;
+    }
+
+    .vision-det{
+        padding: 0 2rem;
+    }
+
+    .anchor-icon-vision{
+        column-gap: 1rem;
+    }
+    /* ============== vision section ends ========== */
+    /* ============== footer section starts ========== */
+
+    .foot-grid{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 3rem;
+        padding: 2rem;
+    }
+
+    /* ============== footer section ends ========== */
+}
+
+
+
+
+
+
+/* #####################################################
+
+        768     to      991
+
+##################################################### */
+
+
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:991px){
+    header{
+        padding: 2rem;
+    }
+
+
+    .item h2{
+        font-size:1.5rem;
+    }
+
+    .item p{
+        font-size:1.2rem;
+    }
+    .icon-item{
+        text-align:center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .header-right-icons{
+        margin-left: 0;
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    /* ============= header section ends ============= */
+    /* ============= banner section starts ============= */
+    #banner{
+        background-position: center;
+        background-size:cover;
+        padding: 5rem 0;
+    }
+
+    .banner-item-left{
+        text-align: center;
+        padding: 4rem;
+    }
+
+    .banner-item-left p{
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+
+    .solutions-details-header-underline{
+        height:0.2rem;
+        margin-top: 1rem;
+    }
+    /* ============= banner section ends ============= */
+    /* ============= solutions section starts ============= */
+    .solutions-parent{
+        grid-template-columns: 3fr 5fr;
+        column-gap: 3rem;
+    }
+
+    .solutions-details-header h1{
+        font-size:2.2rem;
+        /* font-family:"Poppins",sans-serif; */
+        font-weight: 600;
+    }
+
+    .card-details h1{
+        /* color: white; */
+        font-size:7rem;
+        /* font-weight: 800; */
+    }
+
+    .card-details h5{
+        font-size:1.1rem;
+    }
+
+    .solutions-details-header-paragraph p{
+        font-size: 1.3rem;
+        /* color: var(--paragraph); */
+    }
+
+    .para-solu{
+        padding: 2.5rem 0 2rem 0;
+    }
+    .solutions-details-header-button{
+        margin-top: 4rem;
+    }
+
+    .solutions-details-header-button a{
+        font-size: 1.5rem;
+        padding: 1.3rem 2rem;
+    }
+    /* ============= solutions section ends ============= */
+    /* ============= choose section starts ============= */
+    .img-choose{
+        position:inherit;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .choose-lft{
+        width:100%;
+        text-align: center;
+    }
+
+    .choose-rgt{
+        width:0%;
+    }
+
+    .heading-choose h1{
+        padding-top: 3rem;
+    }
+
+    .underline-choose{
+        margin: 0 auto;
+    }
+
+
+    .choose-icon{
+        top:-5rem;
+        left:50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+
+    .point-common{
+        margin-top: 10rem;
+    }
+    .point-common h3{
+        margin-left: 0;
+        /* margin-top: 10rem; */
+    }
+
+    .point-common p{
+        margin-left: 0;
+    }
+
+
+    .para-choose p{
+        padding-bottom: 0rem;
+    }
+    /* ============= choose section ends ============= */
+
+    /* ============ offer section starts ============ */
+    .offer-heading-grid{
+        grid-template-columns:1fr 1fr;
+        column-gap:3rem;
+    }
+
+    .offer-heading-grid-left h1{
+        padding-top: 3rem;
+        padding-left: 3rem;
+    }
+
+    .offer-heading-grid-right{
+        text-align:justify;
+    }
+
+    .offer-heading-grid-right p{
+        padding-right: 3rem;
+    }
+
+    .offer-box-grid{
+        padding: 3rem 0 2rem 0;
+    }
+
+    .offer-grid-details{
+        text-align: center;
+    }
+
+    .offer-grid-details h3{
+        font-size:2.3rem;
+        font-weight:700;
+    }
+
+
+    .offer-grid-details p{
+        font-size:1.4rem;
+        text-align:justify;
+        padding: 3rem 2rem 0 2rem;
+    }
+    /* ============ offer section ends ============ */
+    /* ============ team section starts ============ */
+    .team-head p{
+        padding: 2rem 7rem;
+    }
+
+    .card-body h1{
+        font-size:2.8rem;
+    }
+
+    .card-body h3{
+        font-size:1.6rem;
+    }
+    /* ============ team section ends ============ */
+    /* ============ counter section starts ============ */
+    #counter{
+        padding: 3rem 0;
+    }
+    .counter-item h1{
+        font-size:3.5rem;
+    }
+
+    .counter-item span{
+        font-size:3.5rem;
+    }
+
+    .counter-item p{
+        font-size:1.4rem;
+    }
+    /* ============ counter section ends ============ */
+    /* ============ plan1 section starts ============ */
+    .plan-grid-details{
+        column-gap:1rem;
+    }
+
+    .plan-box-title h1{
+        font-size:2.5rem;
+    }
+
+    .plan-box-title span{
+        font-size:1.8rem;
+    }
+
+    .plist-desc p{
+        font-size:1.4rem;
+    }
+
+    .plist{
+        padding: 0.2rem 2rem;
+    }
+
+    .plan-common-heading article{
+        padding: 3rem 10rem;
+    }
+    /* ============ plan1 section ends ============ */
+    /* ============ vision section starts ============ */
+    .vision{
+        /* display:grid; */
+        grid-template-columns: 1fr;
+        /* column-gap:4rem; */
+    }
+
+    .vision-img{
+        display:flex;
+        /* align-items: center; */
+        justify-content: space-around;
+    }
+
+    .vision-det{
+        text-align: center;
+    }
+
+    .vision-det h1{
+        padding-top: 4rem;
+    }
+
+    .vision-underline{
+        margin: 0 auto;
+    }
+
+    .anchor-icon-vision{
+        padding-left: 25rem;
+    }
+    /* ============ vision section ends ============ */
+}
+
+
+
+
+
+
+
+/* #####################################################
+
+        992     to      1199
+
+##################################################### */
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) and (max-width:1199px){
+    /* ============= choose section starts ============ */
+
+    .para-choose{
+        text-align:justify;
+    }
+
+    .para-choose p{
+        padding-bottom: 2rem;
+    }
+    .img-choose{
+        width:50%;
+        top:50%;
+        transform:translateY(-50%);
+        -webkit-transform:translateY(-50%);
+        -moz-transform:translateY(-50%);
+        -ms-transform:translateY(-50%);
+        -o-transform:translateY(-50%);
+}
+    .img-choose img{
+        height: 100%;
+        width:100%;
+    }
+
+    .point-common{
+        /* position: relative; */
+        margin-bottom: 2rem;
+    }
+
+    .point-common h3{
+        margin-left: 10rem;
+        /* padding-bottom: 0.5rem; */
+        font-size:2rem;
+        color: var(--heading-color);
+    }
+
+    .point-common p{
+        margin-left: 10rem;
+        font-size:1.4rem;
+        color: var(--paragraph);
+    }
+    /* ============= choose section ends ============ */
+
+    /* =========== team section starts ============= */
+    .team-head p{
+        padding: 2rem 20rem;
+    }
+    /* =========== team section ends ============= */
+    /* =========== counter section starts ============= */
+    #counter{
+        padding: 6rem 0;
+    }
+    
+    
+    .counter-item h1{
+        font-size:4rem;
+    }
+
+    .counter-item p{
+        font-size:1.4rem;
+    }
+
+    .counter-item span{
+        font-size:4rem;
+    }
+    /* =========== counter section ends ============= */
+    /* =========== plan1 section starts ============= */
+    
+    
+    /* =========== plan1 section ends ============= */
+    /* =========== vision section starts ============= */
+    .anchor-icon-vision{
+        /* display:grid; */
+        /* grid-template-columns: 1fr 6fr; */
+        column-gap: 1rem;
+    }
+    /* =========== vision section ends ============= */
+}
+
+
+
+
+
+
+
+/* #####################################################
+
+        992     to      1399
+
+##################################################### */
+
+
+
+
+
+@media screen and (min-width:992px) and (max-width:1399px){
+    /* ============== banner-section starts ======== */
+
+    .banner-item-left{
+        padding: 5rem;
+    }
+
+    .anchor-banner-div{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1em;
+    }
+
+    .anchor-banner-div a{
+        margin-right: 0;
+        padding: 0.5rem 0;
+    }
+    /* ============== banner-section ends ======== */
+    /* ============== solutions part starts ======== */
+    .solutions-parent{
+        /* grid-template-columns: 1fr; */
+        column-gap: 6rem;
+    }
+
+    .para-solu{
+        padding: 3.7rem 0 1.5rem 0;
+    }
+
+    .solutions-details-header-button{
+        margin-top: 5rem;
+    }
+
+    .solutions-details-header-paragraph p{
+        font-size: 1.4rem;
+        /* color: var(--paragraph); */
+    }
+    /* ============== solutions part ends ======== */
+    /* ============== plan1 part starts ======== */
+    .plist{
+        padding: 0.7rem 3rem;
+    }
+
+    .plan-common-heading article{
+        padding: 3rem 15rem;
+    }
+    /* ============== plan1 part ends ======== */
+}
